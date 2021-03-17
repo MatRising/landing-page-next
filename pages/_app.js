@@ -1,6 +1,6 @@
 import { createGlobalStyle, ThemeProvider } from "styled-components";
 import Footer from "../components/Footer";
-import Nav from "../components/nav";
+import Nav from "../components/Nav";
 import HamburgerContextProvider from "../context/HamburgerContext";
 
 const GlobalStyle = createGlobalStyle`
