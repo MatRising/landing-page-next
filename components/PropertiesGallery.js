@@ -72,8 +72,8 @@ const Gallery = styled.div`
   grid-template-rows: repeat(3, 1fr);
   grid-gap: 1rem;
   @media (max-width: 1023px) {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(6, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(12, 1fr);
   }
 `;
 

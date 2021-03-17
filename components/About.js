@@ -9,7 +9,7 @@ const Gimmick = styled.div`
   justify-content: center;
   align-items: center;
   background-color: white;
-  padding: 2rem 0;
+  padding: 2rem 1rem;
 `;
 const Wrapper = styled.div`
   background-color: white;
@@ -59,16 +59,14 @@ const Wrapper = styled.div`
         @media (max-width: 1023px) {
           font-size: 2rem;
         }
-        @media (min-width: 1024px) {
-          &:before {
-            content: "";
-            color: black;
-            position: absolute;
-            left: -60px;
-            top: 40%;
-            border: 1px solid black;
-            width: 50px;
-          }
+        &:before {
+          content: "";
+          color: black;
+          position: absolute;
+          left: -60px;
+          top: 40%;
+          border: 1px solid black;
+          width: 50px;
         }
       }
     }
